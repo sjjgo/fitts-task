@@ -1,0 +1,163 @@
+body {
+	font-size: 16px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	min-width: 650px;
+}
+
+.acknowledgements{
+    font-size:smaller;
+    color:"#333";
+}
+
+.container{
+    margin:auto;
+    width:50%;
+}
+
+#test-area svg{
+    border:none;
+}
+
+.fitts-area{
+    margin:auto;
+    text-align:center;
+}
+
+h1 {
+	display: block;
+	font-size: 2em;
+	font-weight: 900;
+	margin-bottom: 0.3333333em;
+	margin-top: 0.333333em;
+}
+
+h2 {
+	display: block;
+	font-size: 1.3333333em;
+	font-weight: 700;
+	margin-bottom: 0.3333333em;
+	margin-top: 0.5em;
+}
+
+p {
+	margin-bottom: 1em;
+}
+
+h1 strong {
+	font-weight: 400;
+}
+
+strong {
+/*	font-family: 'Open Sans';*/
+	font-weight: 600;
+/*	font-size: 0.91em;*/
+}
+.sans {
+	font-weight: 700;
+	font-size: 0.8em;
+}
+
+div.2ndRow {
+	margin-top: 20px;
+}
+
+p.caption {
+	font-weight: 700;
+	font-size: 0.8em;
+}
+
+p.note {
+	font-weight: 600;
+	background-color: #EDE6B2;
+	border-radius: 15px;
+	font-size: 0.8em;
+	padding: 15px;
+}
+
+.border {
+	border: solid black 1px;
+}
+
+hr {
+	height: 1px;
+	background-color: #ccc;
+	margin: 15px;
+}
+
+#dataSets .active {
+	color: #fff;
+	background-image: url('tile16.png');
+}
+
+#dataSets div {
+	border-radius: 4px;
+	margin: 2px;
+	padding: 2px 8px 2px 8px;
+}
+#dataSets button {
+	margin-left: 30px;
+}
+
+#sliderRadius, #sliderDistance {
+	margin-top: -10px;
+}
+
+div.msg {
+	width: 200px;
+/*	height: 40px;*/
+	position: fixed;
+	top: 10px;
+	left:50%;
+	margin-left: -100px;
+	background-color: #FFE736;
+	border-radius: 10px;
+	padding: 10px;
+	color: #fff;
+	text-align: center;
+	vertical-align: center;
+	font-weight: 700;
+}
+
+div.math {
+	padding: 20px;
+}
+
+
+
+
+/*SVG styles*/
+
+line {
+	stroke: black;
+/*	shape-rendering: crispEdges;*/
+}
+
+.back {
+	fill: #fff;
+	stroke-width: 2px;
+  	shape-rendering: crispEdges;
+}
+
+#plot-scatter circle {
+	fill: red;
+	opacity: 0.5;
+}
+
+.axis path, .axis line {
+  fill: none;
+  stroke: #ccc;
+  shape-rendering: crispEdges;
+}
+
+path {
+  fill: none;
+  stroke: #000;
+}
+
+
+
+circle.iso {
+	fill: #aaa;
+	opacity: 0.5;
+}

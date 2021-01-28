@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <title>HTML5 Fitts' Law Task</title>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.20/lodash.min.js" integrity="sha256-ur/YlHMU96MxHEsy3fHGszZHas7NzH4RQlD4tDVvFhw=" crossorigin="anonymous"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script type="text/javascript" src="js/fitts-law.js"></script>
+    <link type="text/css" rel="stylesheet" href="css/reset.css" />
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>Fitts' Law Task</h1>
+        <div class="fitts-area">
+            <div id="test-area" class="sans"></div>
+            <p class="caption">
+                Try to click the red circle as fast as possible but at the same time try to avoid errors.
+            </p>
+        </div>
+        <div class="result" id="complete-area" style="display:none;">
+            <h2>Data submitted successfully....</h2>
+            <p>Thank you for participating!</p>
+        </div>
+        
+        <div class="result" id="incomplete-area" style="display:none;color:#f00;">
+            <p><strong>There was a problem submitting your data.</strong></p>
+            <button id="retry-submit">Try again</button>
+        </div>
+        
+        <hr>
+        <div id="acknowledgements" style="font-size:smaller;">
+            <h2>Acknowledgements</h2>
+            <p>
+                This interactive experiment was originally created as part of an assignment for the <strong>User Interface Technologies</strong> course at the <strong>University of Copenhagen</strong> in spring 2012. Group Members: Simon Wallner, Otilia Danet, Trine Eilersen, and Jesper Tved.
+            </p>
+            <p>This version has been updated to use new libraries and has been heavily modified by <a href="https://uclic.ucl.ac.uk/people/sandy-gould" target="_blank">Sandy Gould</a>.</p>
+            <h2>License</h2>
+            <p>
+                This project is licensed under the permissive <strong>MIT license</strong>, The original source is available on <a href="https://github.com/SimonWallner/uit-fitts-law">GitHub</a>.
+            </p>
+
+            <p>
+                The modified source is available at <a href="https://www.sjjg.uk/repos/fitts-law.git">sjjg.uk</a>.
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
